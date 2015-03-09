@@ -6,12 +6,14 @@ package DDG::Spice::<: $ia_package_name :>;
 use DDG::Spice;
 
 # Caching - https://duck.co/duckduckhack/spice_advanced_backend#caching
-spice is_cached => 1; 
+spice is_cached => 1;
 
 # Metadata.  See https://duck.co/duckduckhack/metadata for help in filling out this section.
 name "<: $ia_name_separated :>";
-source "";
-icon_url "";
+# Uncomment and complete: https://duck.co/duckduckhack/metadata#source
+# source "";
+# Optional - Uncomment and complete: https://duck.co/duckduckhack/metadata#iconurl-optional
+# icon_url "";
 description "Succinct explanation of what this instant answer does";
 primary_example_queries "first example query", "second example query";
 secondary_example_queries "optional -- demonstrate any additional triggers";
